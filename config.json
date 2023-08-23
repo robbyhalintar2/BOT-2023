@@ -1,0 +1,18 @@
+{
+   "owner": "6289522238662",
+   "owner_name": "BIMA OWN OFC",
+   "database": "data",
+   "limit": 20,
+   "ram_limit": "2gb",
+   "max_upload": 50,
+   "max_upload_free": 10,
+   "cooldown": 3,
+   "timer": 180000,
+   "timeout": 1800000,
+   "blocks": ["994", "91", "92"],
+   "evaluate_chars":  ["=>", "~>", "<", ">", "$"],
+   "pairing": {
+      "state": true,
+      "number": 6283150869541
+   }
+}
