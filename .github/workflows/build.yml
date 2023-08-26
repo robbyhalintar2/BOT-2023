@@ -1,4 +1,4 @@
-on: push
+on: [push, workflow_dispatch]
 jobs: 
 build-node:
    runs-on: ubuntu-lastest
@@ -10,4 +10,4 @@ build-node:
       - run: npm install @ffmpeg/ffmpeg
       - uses: actions/checkout@v3
       - run: npm install
-      - run : node index.js
+      - run: node index.js
