@@ -20,7 +20,9 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN npm i
+RUN npm install dotenv 
+
+RUN npm install  
 
 COPY . .
 
