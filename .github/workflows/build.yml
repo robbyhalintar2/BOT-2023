@@ -1,0 +1,13 @@
+on: push
+jobs: 
+build-node:
+   runs-on: ubuntu-lastest
+    container: node:14
+    steps:
+      - run: yarn
+      - run: npm install dotenv
+      - run: npm install @ffmpeg-installer/ffmpeg
+      - run: npm install @ffmpeg/ffmpeg
+      - uses: actions/checkout@v3
+      - run: npm install
+      - run : node index.js
