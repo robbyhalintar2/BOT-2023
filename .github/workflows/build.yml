@@ -2,7 +2,7 @@ on: push
 jobs: 
 build-node:
    runs-on: ubuntu-lastest
-    container: nodejs:14
+    container: node:14
     steps:
       - run: yarn
       - run: npm install dotenv
